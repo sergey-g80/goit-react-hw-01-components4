@@ -1,3 +1,6 @@
+import StateComponentic from "./StateComponentic";
+
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,14 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React homework template. Hello there. its me
+      
+      
+        <StateComponentic
+        // title="my comp"
+        />
+      
     </div>
+    
+
   );
 };
